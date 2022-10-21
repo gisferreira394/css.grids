@@ -1,0 +1,68 @@
+body, ul, li, p{
+
+margin:0px;
+padding:0px;
+list-style: none;
+font-size: 1.3rem;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color:aqua;
+}
+
+header{
+    display: flex;
+    background-color: rgb(0, 92, 121);
+    padding: 10px;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+
+.menu{
+
+    display:flex; /* deixa o texto deitado escrevendo corrido que quebre o texto*/
+
+}
+
+.menu li{
+    margin-left: 10px
+}
+
+.menu li a{
+    display: block; /*cria texto fixo*/
+    padding: 10px; /*grossura do quadrado*/
+    background-color: rgb(0, 0, 0);
+
+}
+
+h1{
+
+text-align: center;
+margin-top: 40px;
+
+}
+
+img{
+
+    max-width:100%;
+    display: block;
+}
+
+.flex{ /*ordena que irá ter quebra*/
+
+    display: flex;
+ flex-wrap: wrap; /*quebra */
+max-width:800px;
+margin:0 auto;
+
+}
+
+.flex>div{
+flex: 1 1 200px;
+margin:10px 10px;
+}
